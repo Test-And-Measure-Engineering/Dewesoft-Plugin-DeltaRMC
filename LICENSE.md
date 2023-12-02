@@ -1,20 +1,26 @@
-DeltaRMC License Agreement
+# Dewesoft Plugin for DeltaRMC Controllers License Agreement
 
 Copyright (c) 2023 Test and Measure Engineering LLC. All rights reserved.
 
-Grant of License: This License Agreement ("License") permits users to use one copy of the software product identified above, which may include user documentation provided in online or electronic form (the "Software"). The Software is licensed, not sold, for your use. Your license to use the Software is subject to all the terms and conditions set forth in this Agreement.
+## Grant of License:
+This License Agreement ("License") permits users to use the software product identified above, which may include user documentation provided in online or electronic form (the "Software"). The Software is licensed, not sold, for your use. Your license to use the Software is subject to all the terms and conditions set forth in this Agreement.
 
-Permitted Uses: You may install and use the Software on a single computer. You may also make one backup copy of the Software, provided your backup copy is not installed or used on any computer.
+## Permitted Uses: 
+You may install and use the Software.
 
-Prohibited Uses:
-
-You may not distribute, publish, make publicly available, or allow others to use the Software.
+## Prohibited Uses:
+You may not distribute, publish, or make the Software publicly available.
 You may not modify, adapt, translate, reverse engineer, decompile, disassemble, or create derivative works based on the Software.
-You may not rent, lease, lend, sublicense, or provide commercial hosting services with the Software.
-Intellectual Property: This License does not transfer any title or ownership to the Software or any copy thereof and is not a sale of any rights in the Software. The Software is protected by copyright and other intellectual property laws and treaties.
+You may not rent, lease, lend, or sublicense the Software.
 
-Termination: This License is effective until terminated. It will terminate immediately and without notice if you fail to comply with any term or condition of this License Agreement. Upon termination, you must destroy all copies of the Software and all of its component parts.
+## Intellectual Property:
+This License does not transfer any title or ownership to the Software or any copy thereof and is not a sale of any rights in the Software. The Software is protected by copyright and other intellectual property laws and treaties.
 
-Disclaimer of Warranties: The Software is provided "as is," with all faults and without warranty of any kind. The entire risk arising out of the use or performance of the Software remains with you.
+## Termination:
+This License is effective until terminated. It will terminate immediately and without notice if you fail to comply with any term or condition of this License Agreement. Upon termination, you must destroy all copies of the Software and all of its component parts.
 
-Acknowledgment: By installing, copying, or otherwise using the Software, you acknowledge that you have read this License, understand it, and agree to be bound by its terms and conditions.
+## Disclaimer of Warranties:
+The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+
+## Acknowledgment:
+By installing, copying, or otherwise using the Software, you acknowledge that you have read this License, understand it, and agree to be bound by its terms and conditions.
