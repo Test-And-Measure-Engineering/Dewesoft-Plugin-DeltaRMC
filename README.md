@@ -3,6 +3,8 @@ A custom Dewesoft Plugin for Delta Motion RMC Controllers
 
 ![Screenshot 2023-12-05 104206](img/Screenshot 2023-12-05 104206.png)
 
+![](/img/Screenshot%202023-12-05%20104206.png)
+
 ![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/blob/main/img/Screenshot%202023-12-05%20104206.png)
 
 
