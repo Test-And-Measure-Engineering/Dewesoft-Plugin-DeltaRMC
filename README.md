@@ -1,19 +1,16 @@
 # Dewesoft-Plugin-DeltaRMC
 A custom Dewesoft Plugin for Delta Motion RMC Controllers
 
-![RMCTools_Connect_Plots](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/7c827538-0d0f-4045-b7e7-a7e032c04b17)
-
 # Installation Instructions
-
 ## Pre-Requisites
 * Delta RMC Motion Controller
   * Delta Motion provides Online RMCs for testing and demonstration purposes. See their website for more information: *https://deltamotion.com/support/online-rmcs*
   * License keys for the Online RMCs are included. In the plugin setup, connect to the Online RMC by entering the hostname into the connection string e.g. *rmc150.deltamotion.com*
-* RMCTools
+* RMCTools 64-bit
   * Download and install at *https://deltamotion.com/support/downloads*
-* RMCLink
+* RMCLink 64-bit
   * Download and install at *https://deltamotion.com/support/downloads*
-* DewesoftX
+* DewesoftX 64-bit
   * Download and install at *https://dewesoft.com/download*
 * DewesoftX License
   * All Dewesoft DAQ hardware includes a pro license. The hardware must be connected for the license to be active
@@ -29,9 +26,16 @@ A custom Dewesoft Plugin for Delta Motion RMC Controllers
 ## High-Level Installation Instructions
 ### Install Software
 #### RMCTools
+* Download the 64-bit version of RMCTools from deltamotion.com
+* Direct Link: https://deltamotion.com/files/rmctoolsinstall64.exe
 #### RMCLink
+* Download the 64-bit version of RMCLink from deltamotion.com
+* Direct Link: https://deltamotion.com/files/rmclinkinstall64.exe
 #### DewesoftX
+* Download the 64-bit versino of DewesoftX from dewesoft.com
+* Downloads Page Link: https://dewesoft.com/download
 ### Install Plugin
+* Download  from the 
 ### Install Licenses
 #### DewesoftX
 #### DeltaRMC Plugin
