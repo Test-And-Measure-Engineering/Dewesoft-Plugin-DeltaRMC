@@ -85,27 +85,39 @@ These are the high-level steps required to install and configure the plugin:
 ![rmc_tools_plot_template_editor_add_plot](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/39ce2cf1-8a73-471d-b25a-d15be9591f1d)
 * The next steps are for configuring the new plot
 * First, change the plot to a *Custom Plot*
-![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/ce8a064f-df79-4793-b0bc-b13fbe412da5)
+![rmc_tools_custom_plot](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/ce8a064f-df79-4793-b0bc-b13fbe412da5)
 * Next, select *Edit Trigger Settings*. The *Plot Trigger Setup* window will appear
-![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/a7189db8-1829-4cf3-b4ea-67a65163cbcf)
+![rmc_tools_trigger_settings](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/a7189db8-1829-4cf3-b4ea-67a65163cbcf)
 * In the *Plot Trigger Setup* window, disable automatic trigger, select manual rearm, and confirm the pre-trigger percentage equals 0%
 * Select *OK* on the *Plot Trigger Setup* window to confirm the trigger settings
-![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/5af6124f-a160-476e-babe-24175b2e7c8e)
+![rmc_tools_edit_trigger_settings](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/5af6124f-a160-476e-babe-24175b2e7c8e)
 * Back on the *Plot Template Editor*, edit the timing settings
 * *Sample Interval* is the rate at which the controller provides data to the plugin. Select the largest possible sample interval that meets your data rate requirements. Smaller values provide more data points, but may cause gaps in the data or delays in the UI update rate if the total data rate is too high relative to the network connection's latency between the controller and Dewesoft. The data rate is a function of sample interval and the number of plot templates
 * *Capture Duration* is the size of the controller's internal buffer. This parameter has no effect on the plugin, unless very small values are used. It is usually best to make this number as large as possible
 * *Trend Duration* is related only to RMCTools and not the controller or plugin. The value does not matter unless viewing trend plots in RMCTools
-![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/b645ece6-9ead-4304-ad41-4ecf4fb671e2)
+![rmc_tools_edit_timing_settings](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/b645ece6-9ead-4304-ad41-4ecf4fb671e2)
 * Finally, edit the *Plotted Data Items*. The data items in this section will be automatically detected and recorded in the plugin
-![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/56361c7e-73dd-40b3-9dc5-06858fb35c33)
+![rmc_tools_edit_data_items](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/56361c7e-73dd-40b3-9dc5-06858fb35c33)
 * After configuring the plot, select *OK* in the *Plot Template Editor* to upload the plot settings to the controller. Note: you must be connected to the controller for the settings to take place
 
-
 ## Configure Plugin in Dewesoft
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/fb10a7dd-17c2-4305-ba57-99e10d798fd5)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/5706c778-9a88-4959-84e7-6f0262c42950)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/f978df99-d8fa-4acf-b038-a0ea30670f20)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/4ae96cf0-b13f-4ef1-a6a3-dcfaef737cfd)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/d409e384-6d62-4be5-b792-7d01ea4a8f5f)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/5288e630-6c55-4150-9909-542b1878eb8c)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/a07c8022-e073-4c2f-9dc0-8682cd347d76)
+![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/9adcfe12-a5b3-4695-ab80-c491cf0f9657)
 
 # Troubleshooting
 ## Invalid Dewesoft License
 ## Invalid Plugin License
+## Connect Errors
+* RMCLINK_E_SOCK_HOSTNAME_FAIL
+* RMCLINK_E_TIMEOUT
+* RMCDEVICE_E_DEVICE_ALREADY_EXISTS
+* RMCDEVICE_E_LICENSE_VALIDATION_FAILED
 ## RMCLink COM Object - The RMCLink.dll COM server has not been registered
 * This error means that RMCLink is not installed
 * To fix this problem, install RMCLink
