@@ -18,6 +18,7 @@
   * A license is required for each Delta RMC Controller
   * Licenses are stored in the plugin directory as plaintext in the file *DeltaRMC.lic*
   * To obtain a plugin license, email *support@testandmeasure.engineering*
+#### <br/>
 
 ## Overview
 These are the high-level steps required to install and configure the plugin:
@@ -29,39 +30,54 @@ These are the high-level steps required to install and configure the plugin:
 6) Add Plugin Licenses
 7) Configure RMC Controller
 8) Configure Plugin
+<br/>
 
 ## Install RMCTools
 * Download the 64-bit version of RMCTools from deltamotion.com
 * Direct Link: https://deltamotion.com/files/rmctoolsinstall64.exe
 * RMCTools is not required to use the plugin, but it is required to configure the data channels exposed by the controller
+<br/>
 
 ## Install RMCLink
 * Download the 64-bit version of RMCLink from deltamotion.com
 * Direct Link: https://deltamotion.com/files/rmclinkinstall64.exe
+<br/>
 
 ## Install DewesoftX
 * Download the 64-bit versino of DewesoftX from dewesoft.com
 * Downloads Page Link: https://dewesoft.com/download
+<br/>
 
 ## Install Plugin
 * Navigate to the plugin's github repository: https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/
 * From the repository, navigate to the Releases page:
 #### 
-![download_plugin_github_repo_page](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/6a1d37f9-db02-4e91-8590-d031c34ba0d5)
+* ![download_plugin_github_repo_page](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/6a1d37f9-db02-4e91-8590-d031c34ba0d5)
 #### 
 * On the releases page, under the latest release's Assets, download the plugin by selecting *DeltaRMC.zip*:
 #### 
-![download_plugin_github_releases_page](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/0c4c5e71-d28a-49bb-9869-95e6e6493c1f)
+* ![download_plugin_github_releases_page](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/0c4c5e71-d28a-49bb-9869-95e6e6493c1f)
 #### 
 * Extract DeltaRMC.zip and copy the unzipped folder to the DewesoftX Bin64\Addons64 folder
 * The resulting path should look like this: *C:\Program Files\DewesoftX\App\Bin64\Addons64\DeltaRMC*
 * The DeltaRMC plugin folder should contain two files: DeltaRMC64.dll and DeltaRMC.lic
+<br/>
+
+## Register Plugin 
+* Run *DEWESoftX DCOM Registration* by searching for it in *Windows Search* or by finding it in the install folder *DewesoftX\App\Bin64\DCOMReg.exe*
+* Follow the steps in the image below. (1. clean addons, 2. check addons, 3. register, 4. Confirm DeltaRMC64.dll says 'OK')
+* Restart Dewesoft
+####
+* ![register plugin using DCOMReg](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/e3906783-106c-4dcc-91ff-03c71305eb7e)
+####
+<br/>
 
 ## Add DewesoftX Pro License
 * A DewesoftX Pro license is required to use 3rd party plugins
 * All Dewesoft DAQ hardware includes a pro license. Connect the hardware to the computer for the license to be active
 * Alternatively, an evaluation license may be obtained at *https://dewesoft.com/dewesoftx-licensing*
 * Contact your Dewesoft sales rep for more information on licensing
+<br/>
 
 ## Add Plugin Licenses
 * A license is required for each RMC controller where each license is registered with the MAC Address of the controller
@@ -79,6 +95,7 @@ These are the high-level steps required to install and configure the plugin:
 #### 
 ![license_file](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/23a9bfea-34e8-4c57-9dbe-7c33a2c61f7b)
 #### 
+<br/>
 
 ## Configure Controller
 * The plugin only records data that is configured through RMCTools Plots
@@ -121,6 +138,7 @@ These are the high-level steps required to install and configure the plugin:
 ![rmc_tools_edit_data_items](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/56361c7e-73dd-40b3-9dc5-06858fb35c33)
 #### 
 * After configuring the plot, select *OK* in the *Plot Template Editor* to upload the plot settings to the controller. Note: you must be connected to the controller for the settings to take place
+<br/>
 
 ## Configure Plugin in Dewesoft
 * To configure the plugin in Dewesoft, start Dewesoft, select *Options*, then select *Settings*
@@ -159,3 +177,4 @@ The data items can now be recorded in measure mode
 #### 
 ![](https://github.com/Test-And-Measure-Engineering/Dewesoft-Plugin-DeltaRMC/assets/150857697/9adcfe12-a5b3-4695-ab80-c491cf0f9657)
 #### 
+<br/>
