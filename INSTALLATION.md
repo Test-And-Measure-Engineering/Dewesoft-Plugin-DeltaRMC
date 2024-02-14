@@ -1,4 +1,4 @@
-## Pre-Requisites
+## Pre-Requisites Overview (detailed instructions below)
 * Delta RMC Motion Controller
   * Delta Motion provides Online RMCs for testing and demonstration purposes. See their website for more information: *https://deltamotion.com/support/online-rmcs*
   * License keys for the Online RMCs are included. In the plugin setup, connect to the Online RMC by entering the hostname into the connection string e.g. *rmc150.deltamotion.com*
